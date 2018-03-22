@@ -1,0 +1,26 @@
+{
+  "cordova-plugin-contacts": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-contacts@3.0.1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-statusbar": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/apache/cordova-plugin-statusbar.git"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-device": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-device"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

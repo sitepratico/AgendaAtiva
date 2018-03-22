@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>JQuery Mobile Template App</title>
+
+        <link rel="stylesheet" href="libs/jQueryMobile/jquery.mobile-1.4.5.min.css" />
+
+    </head>
+    <body>
+
+
+
+
+
+
+
+
+    	<div data-role="page" id="contacts-home">
+			<div data-role="header">
+        <h1>Agenda Ativa</h1>
+			</div><!-- /header -->
+
+			<div data-role="content">
+        <p align="center">Este e um aplicativo de teste (<em>acesso nativo aos contatos</em>) criado em 22/03/18</p>
+
+				<ul data-role="listview" id="contactList" data-inset="true">
+
+				</ul>
+			</div><!-- /conteúdo -->
+		  </div><!-- /page -->
+
+
+
+
+
+      <div data-role="page" id="contact-info">
+			<div data-role="header" id="contact_header">
+        <a href="#contacts-home" id="back" data-icon="back" data-direction="reverse">Voltar</a>
+				<h1></h1>
+			</div><!-- /header -->
+
+			<div data-role="content" id="contact_content">
+        <div data-role="fieldcontain">
+          <label for="givenName">Nome:</label>
+          <input type="text" name="givenName" id="givenName" readonly>
+        </div>
+        <div data-role="fieldcontain">
+          <label for="familyName">Apelido:</label>
+          <input type="text" name="familyName" id="familyName" readonly>
+        </div>
+        <div data-role="fieldcontain">
+          <label for="phone">Celular:</label>
+          <input type="text" name="phone" id="phone" readonly>
+        </div>
+			</div><!-- /conteúdo -->
+		  </div><!-- /page -->
+
+
+
+
+
+
+
+
+
+<script src="http://192.168.1.7:8080/target/target-script-min.js#anonymous"></script>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="libs/fastclick.min.js"></script>
+        <script src="libs/jquery-1.12.4.min.js"></script>
+		<script src="libs/jQueryMobile/jquery.mobile-1.4.5.min.js"></script>
+
+		<script type="text/javascript" src="js/index.js"></script>
+
+		<script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
